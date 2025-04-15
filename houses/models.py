@@ -6,7 +6,7 @@ class House(models.Model):
 
     name = models.CharField(max_length=140)
     price_per_night = models.PositiveBigIntegerField(
-        verbose_name ="Price",
+        verbose_name="Price",
         help_text="Positive Number Only",
     )
     description = models.TextField()
