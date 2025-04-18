@@ -6,20 +6,21 @@ from .models import House
 class HouseAdmin(admin.ModelAdmin):
     """House Admin Definition"""
 
-    fields = (
-        "name",
-        "address",
-        ("price_per_night", "pets_allowed"),
-    )
-    list_display = (
-        "name",
-        "price_per_night",
-        "address",
-        "pets_allowed",
-    )
-    list_filter = (
-        "price_per_night",
-        "pets_allowed",
-    )
-    search_fields = ("address",)
-    list_display_links = ("name", "address")
+    # fields = (
+    #     "name",
+    #     "address",
+    #     ("price_per_night", "pets_allowed"),
+    # )
+    # list_display = (
+    #     "name",
+    #     "price_per_night",
+    #     "address",
+    #     "pets_allowed",
+    # )
+    # list_filter = (
+    #     "price_per_night",
+    #     "pets_allowed",
+    # )
+    # search_fields = ("address",)
+    # list_display_links = ("name", "address")
+    pass
