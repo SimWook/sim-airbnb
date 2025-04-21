@@ -10,11 +10,15 @@ class CustomUserAdmin(admin.ModelAdmin):
             "profile",
             {
                 "fields": (
+                    "avatar",
                     "username",
                     "password",
                     "name",
                     "email",
                     "is_host",
+                    "gender",
+                    "language",
+                    "currency",
                 ),
                 "classes": ("wide",),
             },
